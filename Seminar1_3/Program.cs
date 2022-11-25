@@ -3,6 +3,10 @@
 
 int num = int.Parse(Console.ReadLine());
 
+if(num < 1 | num > 7)
+{
+    Console.WriteLine("Ошибка");
+}
 if(num == 1)
 {
     Console.WriteLine("Понедельник");
