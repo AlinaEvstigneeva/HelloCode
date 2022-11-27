@@ -81,15 +81,17 @@
 
 int N = int.Parse(Console.ReadLine());
 
-int a = 1;
-int b = 0;
-
-while(a <= N)
+int i = 1, k = 1;            
+while (i <= N)
 {
-    b = a;
-}
-if(b % 2 ==0)
-{
-    Console.WriteLine(b);
-    a++;
+	if (i % 2 == 0)
+	{
+		Console.WriteLine(i);
+		k++;
+	}
+	if (k > N)
+	{
+		break;
+	}
+	i++;
 }
