@@ -2,8 +2,6 @@
 // 14 -> нет 46 -> нет 161 -> да
 
 int a = int.Parse(Console.ReadLine());
-int firstExam = 7;
-int secondExam = 23;
 
 if (a % 7 == 0 && a % 23 == 0)
 {
