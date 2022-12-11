@@ -5,6 +5,11 @@ int numberOfQuarter = int.Parse(Console.ReadLine());
 
 int possibleCoordinates = RangeOfPossibleCoordinates(numberOfQuarter);
 
+if(numberOfQuarter < 0 || numberOfQuarter >= 5 )
+{
+    Console.WriteLine("Ошибка");
+    return;
+}
 
 int RangeOfPossibleCoordinates( int numberOfQuarter)
 {
