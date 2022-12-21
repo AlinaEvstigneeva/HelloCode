@@ -67,3 +67,4 @@ string Method4(int count, string text)              // int count, string text - 
     return result;                                  // возвращаем результат
 }
 string res = Method4(10, "hello");                  // для вызова метода, так же заводим переменную
+Console.WriteLine(res);                             
