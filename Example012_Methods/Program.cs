@@ -61,7 +61,7 @@ string Method4(int count, string text)              // int count, string text - 
     string result = String.Empty;                   // string result - переменная, в которой будет храниться результат метода
     while( i< count)                                // String.Empty - команда для создания пустой строки
     {
-        rusult = result + text;
+        result = result + text;
         i++;                                        
     }
     return result;                                  // возвращаем результат
