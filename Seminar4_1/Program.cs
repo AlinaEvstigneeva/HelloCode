@@ -28,6 +28,9 @@ int[] numbers = new int[]{1, 2, 3, 4};      // значения, котороы�
 
 int [] sums = new int []{1, 3, 6, 11};      // значения, которые ожидаем получить
 
+
+
+
 for( var i = 0; i < numbers.Length; i++)
 {
     int sum = GetSum(numbers[i]);

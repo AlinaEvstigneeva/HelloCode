@@ -10,27 +10,25 @@
 
 // int num = int.Parse(Console.ReadLine());
 
+// Console.Write("Ведите число");
 
-// Console.Write("Введите число, написав каждую цифру через enter: ");
+// int number = int.Parse(Console.ReadLine());
 
-// int dig1 = int.Parse(Console.ReadLine());
-// int dig2  = int.Parse(Console.ReadLine());
-// int dig3 = int.Parse(Console.ReadLine());
-// int dig4 = int.Parse(Console.ReadLine());
-// int dig5 = int.Parse(Console.ReadLine());
-
-// int [] GetArray(int num, int dig1, int dig2, int dig3, int dig4, int dig5)
+// int [] GetArray(int num)
 // {
 //     int [] array = new int [num];
 //     {
 //         for(int i = 0; i < num; i++)
 //         {
-//             array[i] = 
+//             array[i] = int.Parse(Console.ReadLine());
 //         }
+//         return array;
 
 //     }
 // }
 
+// int [] mainArray = GetArray(num);
+// Console.WriteLine(mainArray);
 
 
 
