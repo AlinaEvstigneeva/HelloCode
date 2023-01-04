@@ -81,18 +81,3 @@ void PrintArray(int[] newArray)
 PrintArray(randomArray);
 
 
-
-
-// void PrintArray(int[] arr)
-// {
-//     int count = arr.Length;
-//     int position = 0;
-//     while(position < count)
-//     {
-//         Console.WriteLine(arr[position]);
-//         position++;
-//     }
-// }
-
-
-
