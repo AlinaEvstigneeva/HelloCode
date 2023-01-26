@@ -7,3 +7,5 @@ if(num > 99 & num <=999)
 {
     Console.WriteLine(num % 10);
 }
+
+
