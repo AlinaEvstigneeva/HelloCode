@@ -44,10 +44,12 @@ Console.WriteLine($"Entered number is {enteredNumber}, the second digit is {resu
     return number;
 }
 
+int firstAct = 0;
 int ShowSecondDigit(int enteredNumber)
 {
+    
     while(enteredNumber >= 100)
-    {
+    {                                                       // программа не сработала. Не могу понять, где зацикливается
         int firstAct = enteredNumber / 10;
     }
     int secondAct = firstAct % 10;
@@ -71,7 +73,7 @@ Console.WriteLine($"Entered number is {enteredNumber}, the second digit is {resu
 7 -> да
 1 -> нет */
 
-int NumberRequest(string message)
+/* int NumberRequest(string message)
 {
     Console.WriteLine(message);
     int number = Convert.ToInt32(Console.ReadLine());
@@ -110,5 +112,5 @@ if(enteredNumber == 7)
 }
 if(enteredNumber < 1 | enteredNumber > 7)
 {
-    Console.WriteLine("Invalid number");
-}
+    Console.WriteLine("Invalid number"); 
+} */
