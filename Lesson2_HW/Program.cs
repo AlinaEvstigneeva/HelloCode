@@ -48,9 +48,10 @@ int firstAct = 0;
 int ShowSecondDigit(int enteredNumber)
 {
     
-    while(enteredNumber >= 100)
+    while(enteredNumber >= 99)
     {                                                       // программа не сработала. Не могу понять, где зацикливается
-        int firstAct = enteredNumber / 10;
+        int firstAct = enteredNumber / 100;
+        enteredNumber--;
     }
     int secondAct = firstAct % 10;
     return secondAct;
