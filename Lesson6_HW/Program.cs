@@ -105,6 +105,3 @@ int b1 = GetNumber("Введите значение b1: ");
 int k1 = GetNumber("Введите значение k1: ");
 int b2 = GetNumber("Введите значение b2: ");
 int k2 = GetNumber("Введите значение k2: ");
-
-
-
