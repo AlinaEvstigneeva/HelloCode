@@ -129,4 +129,8 @@ else return GetAckermanFunction(numberM-1,GetAckermanFunction(numberM,numberN-1)
 
 int numberM = GetNumber("Введите число M: ");
 int numberN = GetNumber("Введите число N: ");
-Console.WriteLine(GetAckermanFunction(numberM, numberN));
+Console.WriteLine($"Функция Аккермана равна {GetAckermanFunction(numberM, numberN)}");
+
+
+/* ИЛЬЯ! Тысяча извинений (хотела вставить мемасик, но не умею пока), что не смогла поприсутствовать 
+на наших последних увлекательных онлайн занятиях. Большое спасибо за курс и приятную атмосферу! Было интересно :) */
